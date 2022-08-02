@@ -8,5 +8,5 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
     public static final ItemGroup FABRIC_TAB = FabricItemGroupBuilder.build(
-            new Identifier(FirstMod.MOD_ID, "fabric_tab"), () -> new ItemStack(ModItems.UFO));
+            new Identifier(FirstMod.MOD_ID, "fabric_tab"), () -> new ItemStack(ModItems.RAW_UFO));
 }
