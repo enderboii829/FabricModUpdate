@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "firstmod",
-  "version": "${version}",
+  "version": "0.0.4",
 
   "name": "First Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
@@ -14,7 +14,7 @@
   },
 
   "license": "MIT License",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/firstmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
