@@ -3,10 +3,10 @@
   "pools": [
     {
       "rolls": 1,
-      "enteries": [
+      "entries": [
         {
           "type": "minecraft:item",
-          "name": "firstmod:UFO_block"
+          "name": "firstmod:UFO"
         }
       ]
     }
