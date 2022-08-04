@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "enteries": [
+        {
+          "type": "minecraft:item",
+          "name": "firstmod:UFO_block"
+        }
+      ]
+    }
+  ]
+}
