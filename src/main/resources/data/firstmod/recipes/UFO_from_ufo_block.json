@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "firstmod:UFO_block"
+      "item": "firstmod:ufo_block"
     }
   ],
   "result": {
-    "item": "firstmod:UFO",
+    "item": "firstmod:ufo",
     "count": 9
   }
 }

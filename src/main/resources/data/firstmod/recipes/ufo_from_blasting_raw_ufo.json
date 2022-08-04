@@ -4,7 +4,7 @@
   "experience": 0.35,
   "group": "UFO",
   "ingredient": {
-    "item": "firstmod:Raw_UFO"
+    "item": "firstmod:raw_ufo"
   },
-  "result": "firstmod:UFO"
+  "result": "firstmod:ufo"
 }

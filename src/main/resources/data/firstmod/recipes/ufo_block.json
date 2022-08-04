@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "firstmod:UFO"
+      "item": "firstmod:ufo"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
     "###"
   ],
   "result": {
-    "item": "firstmod:UFO_block"
+    "item": "firstmod:ufo_block"
   }
 }
