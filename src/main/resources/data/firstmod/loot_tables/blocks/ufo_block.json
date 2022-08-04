@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "firstmod:UFO_block"
+          "name": "firstmod:ufo_block"
         }
       ],
       "rolls": 1.0
