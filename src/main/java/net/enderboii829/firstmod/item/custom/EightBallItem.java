@@ -27,7 +27,7 @@ public class EightBallItem extends Item {
     }
 
     private void outputRandomNumber(PlayerEntity player) {
-        player.sendMessage(Text.literal("Your Number is" + getRandomNumber()));
+        player.sendMessage(Text.literal(" Your Number is " + getRandomNumber()));
     }
 
     private int getRandomNumber(){

@@ -1,6 +1,8 @@
 {
   "item.firstmod.raw_ufo": "Raw UFO",
   "item.firstmod.ufo": "UFO",
+  "item.firstmod.eight_ball": "Eight Ball",
+
   "block.firstmod.ufo_block": "UFO Block",
 
   "itemGroup.firstmod.fabric_tab": "Fabric Tab"

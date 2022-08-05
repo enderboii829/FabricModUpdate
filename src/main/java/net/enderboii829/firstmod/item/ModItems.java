@@ -1,6 +1,7 @@
 package net.enderboii829.firstmod.item;
 
 import net.enderboii829.firstmod.FirstMod;
+import net.enderboii829.firstmod.item.custom.EightBallItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
@@ -12,6 +13,9 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.FABRIC_TAB)));
     public static final Item UFO = registerItem("ufo",
             new Item(new FabricItemSettings().group(ModItemGroup.FABRIC_TAB)));
+
+    public static final Item EIGHT_BALL = registerItem("eight_ball",
+            new EightBallItem(new FabricItemSettings().group(ModItemGroup.FABRIC_TAB).maxCount(1)));
 
 
 
