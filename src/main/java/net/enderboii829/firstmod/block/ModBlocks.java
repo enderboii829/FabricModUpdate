@@ -1,6 +1,7 @@
 package net.enderboii829.firstmod.block;
 
 import net.enderboii829.firstmod.FirstMod;
+import net.enderboii829.firstmod.block.custom.JumpyBlock;
 import net.enderboii829.firstmod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -15,6 +16,8 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 public static final Block UFO_BLOCK = registerBlock("ufo_block",
         new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.FABRIC_TAB);
+    public static final Block JUMPY_BLOCK = registerBlock("jumpy_block",
+            new JumpyBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.FABRIC_TAB);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
