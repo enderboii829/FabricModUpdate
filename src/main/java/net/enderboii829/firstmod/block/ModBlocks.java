@@ -1,12 +1,14 @@
 package net.enderboii829.firstmod.block;
 
 import net.enderboii829.firstmod.FirstMod;
+import net.enderboii829.firstmod.block.custom.CherryCropBlock;
 import net.enderboii829.firstmod.block.custom.BlueLampBlock;
 import net.enderboii829.firstmod.block.custom.JumpyBlock;
 import net.enderboii829.firstmod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -22,6 +24,14 @@ public static final Block UFO_BLOCK = registerBlock("ufo_block",
     public static final Block BLUE_LAMP = registerBlock("blue_lamp",
             new BlueLampBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()
                     .luminance(state -> state.get(BlueLampBlock.LIT)? 15 : 0)), ModItemGroup.FABRIC_TAB);
+    public static final Block CHERRY_CROP = registerBlockWithoutItem("cherry_crop",
+            new CherryCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)));
+
+    private static Block registerBlockWithoutItem(String name, Block block) {
+        return Registry.register(Registry.BLOCK, new Identifier(FirstMod.MOD_ID, name), block);
+    }
+
+
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
