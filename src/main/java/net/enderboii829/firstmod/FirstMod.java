@@ -2,6 +2,7 @@ package net.enderboii829.firstmod;
 
 import net.enderboii829.firstmod.block.ModBlocks;
 import net.enderboii829.firstmod.item.ModItems;
+import net.enderboii829.firstmod.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,5 +17,7 @@ public class FirstMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModVillagers.registerVillagers();
+		ModVillagers.registerTrades();
 	}
 }

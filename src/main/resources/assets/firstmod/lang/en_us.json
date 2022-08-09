@@ -10,7 +10,7 @@
   "block.firstmod.blue_lamp": "Blue Lamp",
   "block.firstmod.cherry_crop": "Cherry",
 
-  "itemGroup.firstmod.fabric_tab": "Fabric Tab"
+  "itemGroup.firstmod.fabric_tab": "Fabric Tab",
 
-
+  "entity.minecraft.villager.jumpmaster": "Jump Master"
 }
